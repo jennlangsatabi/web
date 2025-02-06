@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #597445;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border-bottom: 5px solid #658147;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #729762;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #77B254;
+}
+
+/* Home Section */
+#home {
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    min-height: 70vh; /* Ensures the section takes full screen height */
+    overflow: hidden; /* Prevents scroll issues */
+}
+
+#home img {
+    width: 100%; /* Makes the image full width */
+    height: auto; /* Keeps the aspect ratio */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8; /* Adjust transparency (0 is fully transparent, 1 is fully visible) */
+}
+
